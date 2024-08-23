@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset ="UTF-8">
+        <meta name = "viweport" content = "width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet"  href = "style.css">
+    
+    </head>
+    <body>
+        <!-- ************************************** HEADER & NAVEBARsss ******************************************  -->
+
+        <header>
+            <div class="container">
+                <nav class="title">
+                    <a href="#"> Home </a>
+                    <!-- <a href="#"> Furniture </a>
+                    <a href="#"> Home&Kitchen </a>
+                    <a href="#"> LogIN/signUp </a> -->
+                </nav>
+                <div class="wrap">
+                    <!-- <div class="icon-wishlish" data-target="#wishlish">
+                        <ion-icon name="heart-outline"></ion-icon>
+                          <span>0</span>
+                    </div>
+                    <div class="icon-cart" data-target="#cart">
+                      <ion-icon name="cart-outline"></ion-icon>
+                        <!-- <svg class="w-[19px] h-[19px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.3L19 7H7.3"/>
+                        </svg>
+                          <span>0</span> 
+                    </div> -->
+                    <a href="#" class="icon-wishlish active-tab"  data-target="#wishlish">
+                       <ion-icon name="heart-outline"></ion-icon>
+                        <span>0</span>
+                    </a>
+                    <a href="#" class="icon-cart"  data-target="#cart">
+                        <ion-icon name="cart-outline"></ion-icon>
+                        <span>0</span>
+                     </a>
+                </div>
+            </div>
+            
+        </header>
+
+        <!-- ************************************** MAIN ******************************************  -->
+
+        <main>
+            <div class="container">
+           
+                <div id="contentTab">
+                    Content in template file
+                </div>
+            </div>
+            <div class="tab-items">
+                <div class="tab-item active-tab" content id="wishlish">
+                    <h1> Whilish </h1>
+                    <div class="list-wishlish">
+                        show item here
+                    </div>
+                    <div class="wishlish-btn">
+                        <button class="close"> Close </button>
+                        <button class="checkout"> Check Out </button>
+                    </div>
+                </div>
+
+                <div class="tab-item " content id="cart">
+                    <h1>Shopping Cart</h1>
+                    <div class="list-cart">
+                        show item here
+                    </div>
+                    <div class="cart-btn" >
+                        <button class="close"> Close </button>
+                        <button class="checkout"> Check Out </button>
+                    </div>
+                </div>    
+            </div>  
+        </main>
+
+        <!-- *************************************** ionicon link *************************************** -->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    </body>
+    <script src="cart with wishlist .js"></script>
+</html>
+
