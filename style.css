@@ -121,14 +121,10 @@ body.active-tab.container {
 .tab-item:not(.active-tab) {
   display: none;
 }
-/* 
-body.activewishlish.container{
-    transform: translateX(-500px);
-} */
 
-.tab-links-container {
+/* .tab-links-container {
   display: flex;
   justify-content: center;
   gap: 8px;
   align-items: center;
-}
+} */
